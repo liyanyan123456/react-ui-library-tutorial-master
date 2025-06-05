@@ -1,15 +1,15 @@
 {
-  "name": "@zzzzw/happy-ui",
+  "name": "@liyanyan/chat-ui",
   "version": "1.2.0",
   "description": "A React UI Library.",
   "keywords": [],
-  "homepage": "https://github.com/worldzhao/react-ui-library-tutorial#readme",
+  "homepage": "https://github.com/liyanyan123456/react-ui-library-tutorial#readme",
   "bugs": {
-    "url": "https://github.com/worldzhao/react-ui-library-tutorial/issues"
+    "url": "https://github.com/liyanyan123456/react-ui-library-tutorial/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/worldzhao/react-ui-library-tutorial.git"
+    "url": "git+https://github.com/liyanyan123456/react-ui-library-tutorial.git"
   },
   "license": "ISC",
   "main": "lib/index.js",
@@ -59,10 +59,15 @@
     }
   },
   "dependencies": {
-    "@babel/runtime": "^7"
+    "@ant-design/cssinjs": "^1.23.0",
+    "@ant-design/cssinjs-utils": "^1.1.3",
+    "@babel/runtime": "^7",
+    "antd": "^5.25.4",
+    "classnames": "^2.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-decorators": "^7.27.1",
     "@babel/plugin-transform-runtime": "^7.7.6",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
@@ -122,7 +127,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "authors": {
-    "name": "worldzhao",
-    "email": "1007326924@qq.com"
+    "name": "liyanyan",
+    "email": "2073820553@qq.com"
   }
 }

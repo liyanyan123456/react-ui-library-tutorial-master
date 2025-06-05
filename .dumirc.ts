@@ -21,11 +21,16 @@ export default defineConfig({
   },
   exportStatic: {},
   forkTSChecker: {},
+  themeConfig: {
+    editLink: false,
+    name: 'chatui',
+    logo: 'https://avatars.githubusercontent.com/u/97723502?v=4'
+  },
   extraBabelPlugins: [
     [
       'import',
       {
-        libraryName: '@zzzzw/happy-ui',
+        libraryName: '@liyanyan/chat-ui',
         libraryDirectory: '',
         customStyleName: (name: string) => path.resolve(__dirname, `src/${name}/style/index.ts`),
       },

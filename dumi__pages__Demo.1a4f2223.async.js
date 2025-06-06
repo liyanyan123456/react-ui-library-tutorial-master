@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_liyanyan123_chat_ui=self.webpackChunk_liyanyan123_chat_ui||[]).push([[448],{31988:function(f,n,e){e.r(n),e.d(n,{default:function(){return r}});var a=e(2640),u=e(57689),o=function(){var d=(0,a.UO)(),m=d.id,s=(0,a.WF)(),c=s.demos,i=c[m]||{},t=i.component;return t&&(0,u.createElement)(t)},r=o}}]);

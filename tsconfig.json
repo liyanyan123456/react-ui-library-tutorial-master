@@ -13,7 +13,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "paths": {
-      "@liyanyan/chat-ui": ["src/index.ts"],
+      "@liyanyan123/chat-ui": ["src/index.ts"],
       "@@/*": [".dumi/tmp/*"]
     }
   },

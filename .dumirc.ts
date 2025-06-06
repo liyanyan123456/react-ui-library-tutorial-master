@@ -30,7 +30,7 @@ export default defineConfig({
     [
       'import',
       {
-        libraryName: '@liyanyan/chat-ui',
+        libraryName: '@liyanyan123/chat-ui',
         libraryDirectory: '',
         customStyleName: (name: string) => path.resolve(__dirname, `src/${name}/style/index.ts`),
       },

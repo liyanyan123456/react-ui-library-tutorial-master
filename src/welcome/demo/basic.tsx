@@ -1,5 +1,5 @@
 import React from 'react';
-import { Welcome } from '@liyanyan/chat-ui';
+import { Welcome } from '@liyanyan123/chat-ui';
 
 const Demo = () => {
   return (

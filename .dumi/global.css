@@ -28,7 +28,15 @@
   html {
     scrollbar-width: thin;
     scrollbar-color: #953131 transparent;
+    padding: 40px;
+    
   }
   .dumi-default-features-item {
     text-align: center;
   }
+  .dumi-default-previewer-demo > iframe {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0;
+}

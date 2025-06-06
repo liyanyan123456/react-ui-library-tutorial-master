@@ -23,7 +23,7 @@
     "build": "npm run clean && npm run build:types && gulp",
     "build:site": "dumi build",
     "build:types": "tsc -p tsconfig.build.json && cpr lib esm",
-    "clean": "rimraf lib esm dist .dumi doc-site",
+    "clean": "rimraf lib esm dist doc-site",
     "commit": "cz",
     "deploy:site": "npm run build:site && gh-pages -d doc-site",
     "dev": "npm start",

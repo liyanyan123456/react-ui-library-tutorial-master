@@ -10,10 +10,13 @@ if (process.env.NODE_ENV === 'production' && process.env.PREVIEW !== '1') {
   publicPath = '/react-ui-library-tutorial/';
 }
 
+console.log('Base:', base);
+console.log('Public Path:', publicPath);
+
 export default defineConfig({
   base,
   publicPath,
-  title: 'Happy UI',
+  title: 'chat-ui',
   outputPath: 'doc-site',
   resolve: {
     docDirs: ['docs'],

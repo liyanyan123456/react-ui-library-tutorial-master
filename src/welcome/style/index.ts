@@ -21,9 +21,14 @@ const genWelcomeStyle: GenerateStyle<WelcomeToken> = (token) => {
       [`${componentCls}-icon`]: {
         height: calc(titleHeight).add(descHeight).add(token.paddingXXS).equal(),
         display: 'flex',
+        borderRadius: '50%',
+        overflow: 'hidden',
+        justifyContent: 'center',
+        alignItems: 'center',
 
         img: {
           height: '100%',
+          objectFit: 'cover',
         },
       },
 

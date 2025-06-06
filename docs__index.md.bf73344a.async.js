@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_liyanyan123_chat_ui=self.webpackChunk_liyanyan123_chat_ui||[]).push([[935],{95955:function(a,t,_){_.r(t);var u=_(51260),i=_(19412),d=_(70389),r=_(72862),o=_(12164),m=_(1961),y=_(66989),s=_(2640),e=_(57689);function n(){var l=(0,s.eL)(),p=l.texts;return e.createElement(s.dY,null,e.createElement(e.Fragment,null))}t.default=n}}]);

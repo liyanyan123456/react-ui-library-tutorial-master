@@ -5,7 +5,7 @@ const Demo = () => {
   return (
     <>
       <Welcome
-        icon="https://lh3.googleusercontent.com/a/ACg8ocII5nw0th3DmvK3vVQ_yIe0V016ys-Rs6XXaG2VuecNXAzpBCY=s576-c-no"
+        icon="https://avatars.githubusercontent.com/u/97723502?v=4"
         title="Hello, I'm chat-ui123"
         description="Base on Ant Design, AGI product interface solution, create a better intelligent vision"
       />

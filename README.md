@@ -6,17 +6,21 @@
 - [React 组件库搭建指南（四）：单元测试](https://github.com/worldzhao/blog/issues/6)
 - [React 组件库搭建指南（五）：标准化发布流程](https://github.com/worldzhao/blog/issues/7)
 
-[🚀 在线预览](https://worldzhao.github.io/react-ui-library-tutorial)
+[🚀 在线预览](https://liyanyan123456.github.io/react-ui-library-tutorial-master)
 
 🚆 本地预览
 
 ```bash
-git clone git@github.com:worldzhao/react-ui-library-tutorial.git
-cd react-ui-library-tutorial
+nvm use 16
 pnpm install
 pnpm start
 ```
+🚆 发布npm包
 
+```bash
+npm login
+npm publish
+```
 按顺序执行完命令后，即可在 localhost:3000 端口看到以下内容：
 
 ![preview](https://raw.githubusercontent.com/worldzhao/blog/master/images/rc-lib-v1-1.jpg)

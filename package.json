@@ -46,9 +46,6 @@
       "eslint --fix",
       "jest --bail --findRelatedTests"
     ],
-    "*.less": [
-      "stylelint --syntax less --fix"
-    ],
     "*.{md,html,json}": [
       "prettier --write"
     ]
